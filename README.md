@@ -115,3 +115,6 @@ Feel free to **file a new issue** with a respective title and description on the
 [CONTRIBUTORS.md](/CONTRIBUTORS.md)
 
 
+## :eyes: License
+[MIT](https://github.com/techyhoney/Facemask_Detection/blob/main/LICENSE)
+
