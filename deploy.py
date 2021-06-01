@@ -15,7 +15,7 @@ import os
 from pathlib import Path
 st.set_page_config(layout="wide")
 
-DEFAULT_DATA_BASE_DIR='https://github.com/techyhoney/Facemask_Detection/blob/main/'
+DEFAULT_DATA_BASE_DIR='https://github.com/techyhoney/Facemask_Detection/blob/master/'
 IMAGE_DIR='demo-images/'
 TEAM_DIR='team/'
 prototxtPath = 'deploy.prototxt.txt'
