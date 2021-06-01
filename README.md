@@ -1,7 +1,7 @@
 
 <h1 align="center">Face Mask Detection</h1>
 
-<div align= "center"><img src="https://github.com/techyhoney/Facemask_Detection/blob/main/facemasklogo1.png"/>
+<div align= "center"><img src="https://github.com/techyhoney/Facemask_Detection/blob/master/logo.png"/>
   
 <h4>Maskd (Face Mask Detection system) built with OpenCV, Keras/TensorFlow using Deep Learning and Computer Vision concepts in order to detect face masks in static images as well as in real-time video streams.</h4>
 </div>
@@ -14,12 +14,12 @@
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white"/>
 
 ![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/chandrikadeb7/Face-Mask-Detection/issues)
-[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/techyhoney/Facemask_Detection/blob/main/LICENSE)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/techyhoney/Facemask_Detection/issues)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/techyhoney/Facemask_Detection/blob/master/LICENSE)
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Live Demo](https://github.com/techyhoney/Facemask_Detection/blob/main/demo.gif)
+![Live Demo](https://github.com/techyhoney/Facemask_Detection/blob/master/demo.gif)
 
 
 ## :muscle: Motivation
@@ -27,7 +27,6 @@ In the present scenario due to Covid-19, there is no efficient face mask detecti
 
  
 ## 💻 Live Demo
-See how the web app looks 👉 @ hitengoyal.me
 
 [![Already deployed version](https://raw.githubusercontent.com/vasantvohra/TrashNet/master/hr.svg)](https://face-mask--detection-app.herokuapp.com/)
 
@@ -47,7 +46,7 @@ Our face mask detector didn't use any morphed masked images dataset. The model i
 This system can therefore be used in real-time applications which require face-mask detection for safety purposes due to the outbreak of Covid-19. This project can be integrated with embedded systems for application in airports, railway stations, offices, schools, and public places to ensure that public safety guidelines are followed.
 
 ## :file_folder: Dataset
-The dataset used can be downloaded here - [Click to Download](https://github.com/chandrikadeb7/Face-Mask-Detection/tree/master/dataset)
+The dataset used can be downloaded here - [Click to Download](https://github.com/techyhoney/Facemask_Detection/tree/master/dataset)
 
 This dataset consists of __4000 images__ belonging to two classes:
 *	__with_mask: 2000 images__
@@ -66,7 +65,7 @@ All the dependencies and required libraries are included in the file <code>requi
 ## 🚀&nbsp; Installation
 1. Clone the repo
 ```
-$ git clone https://github.com/chandrikadeb7/Face-Mask-Detection.git
+$ git clone https://github.com/techyhoney/Facemask_Detection.git
 ```
 
 2. Change your directory to the cloned repo 
@@ -87,22 +86,6 @@ $ source test/bin/activate
 $ pip3 install -r requirements.txt
 ```
 
-## :bulb: Working
-
-1. Open terminal. Go into the cloned project directory and type the following command:
-```
-$ python3 train_mask_detector.py --dataset dataset
-```
-
-2. To detect face masks in an image type the following command: 
-```
-$ python3 detect_mask_image.py --image images/pic1.jpeg
-```
-
-3. To detect face masks in real-time video streams type the following command:
-```
-$ python3 detect_mask_video.py 
-```
 ## :trophy: Results
 
 #### Our model gave around 99% accuracy for Face Mask Detection after training.
