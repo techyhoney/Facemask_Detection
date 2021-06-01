@@ -15,7 +15,7 @@ import os
 from pathlib import Path
 st.set_page_config(layout="wide")
 
-DEFAULT_DATA_BASE_DIR='https://github.com/techyhoney/Facemask_Detection/blob/main/'
+DEFAULT_DATA_BASE_DIR='./'
 IMAGE_DIR='demo-images/'
 TEAM_DIR='team/'
 prototxtPath = 'deploy.prototxt.txt'
@@ -31,7 +31,7 @@ SIDEBAR_OPTION_PROJECT_INFO = "Show Project Info"
 SIDEBAR_OPTION_DEMO_IMAGE = "Select a Demo Image"
 SIDEBAR_OPTION_MEET_TEAM = "Meet the Team"
 
-SIDEBAR_OPTIONS = [SIDEBAR_OPTION_PROJECT_INFO,SIDEBAR_OPTION_WEBCAM, SIDEBAR_OPTION_UPLOAD_IMAGE,
+SIDEBAR_OPTIONS = [SIDEBAR_OPTION_PROJECT_INFO, SIDEBAR_OPTION_UPLOAD_IMAGE,
                    SIDEBAR_OPTION_DEMO_IMAGE, SIDEBAR_OPTION_MEET_TEAM]
 
 st.sidebar.image("logo.png")
