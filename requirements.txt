@@ -1,4 +1,4 @@
-tensorflow==2.5.0
+tensorflow-cpu
 keras==2.4.3
 imutils==0.5.4
 numpy==1.19.5

@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_webrtc import VideoProcessorBase, webrtc_streamer,ClientSettings
 import cv2
 from PIL import Image,ImageEnhance
 import numpy as np 
@@ -89,7 +88,7 @@ app_mode = st.sidebar.selectbox(
     "Please select from the following", SIDEBAR_OPTIONS)
 
 if app_mode == SIDEBAR_OPTION_UPLOAD_IMAGE:
-    image_file = st.file_uploader("Upload Image", type=['png', 'jpeg', 'jpg'])
+    image_file = st.file_uploader("Upload Image", type=['png', 'jpeg', 'jpg', 'webp'])
     if image_file is not None:
 
         col1,col3 = st.beta_columns([30,30])

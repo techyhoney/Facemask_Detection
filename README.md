@@ -1,7 +1,7 @@
 
 <h1 align="center">Face Mask Detection</h1>
 
-<div align= "center"><img src="https://github.com/techyhoney/Facemask_Detection/blob/master/logo.png"/>
+<div align= "center"><img src="https://i.imgur.com/MfKjyLG.png"/>
   
 <h4>Maskd (Face Mask Detection system) built with OpenCV, Keras/TensorFlow using Deep Learning and Computer Vision concepts in order to detect face masks in static images as well as in real-time video streams.</h4>
 </div>
@@ -19,8 +19,10 @@
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Live Demo](https://github.com/techyhoney/Facemask_Detection/blob/master/demo.gif)
 
+![Live Demo](https://github.com/techyhoney/Facemask_Detection/blob/master/demo.gif?raw=true)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## :muscle: Motivation
 In the present scenario due to Covid-19, there is no efficient face mask detection applications which are now in high demand for transportation means, densely populated areas, residential districts, large-scale manufacturers and other enterprises to ensure safety. Also, the absence of large datasets of __‘with_mask’__ images has made this task more cumbersome and challenging. 
@@ -28,7 +30,7 @@ In the present scenario due to Covid-19, there is no efficient face mask detecti
  
 ## 💻 Live Demo
 
-[![Already deployed version](https://raw.githubusercontent.com/vasantvohra/TrashNet/master/hr.svg)](https://face-mask--detection-app.herokuapp.com/)
+[![Already deployed version](https://raw.githubusercontent.com/vasantvohra/TrashNet/master/hr.svg)](https://maskd.herokuapp.com/)
 
 
 ## :warning: TechStack/framework used
@@ -115,5 +117,5 @@ Feel free to **file a new issue** with a respective title and description on the
 [CONTRIBUTORS.md](/CONTRIBUTORS.md)
 
 ## :eyes: License
-[MIT](https://github.com/techyhoney/Facemask_Detection/blob/main/LICENSE)
+[MIT](https://github.com/techyhoney/Facemask_Detection/blob/master/LICENSE)
 
