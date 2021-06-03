@@ -30,7 +30,7 @@ In the present scenario due to Covid-19, there is no efficient face mask detecti
  
 ## 💻 Live Demo
 
-[![Already deployed version](https://raw.githubusercontent.com/vasantvohra/TrashNet/master/hr.svg)](https://maskd.herokuapp.com/)
+[![Already deployed version](https://github.com/techyhoney/Facemask_Detection/blob/master/streamlit_logo.png?raw=true)](https://share.streamlit.io/techyhoney/facemask_detection/deploy.py/)
 
 
 ## :warning: TechStack/framework used
