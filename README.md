@@ -30,8 +30,7 @@ In the present scenario due to Covid-19, there is no efficient face mask detecti
  
 ## 💻 Live Demo
 
-[Deployed using Streamlit](https://share.streamlit.io/techyhoney/facemask_detection/deploy.py/)
-
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/techyhoney/facemask_detection/deploy.py/)
 
 ## :warning: TechStack/framework used
 
