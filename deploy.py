@@ -163,18 +163,17 @@ elif app_mode == SIDEBAR_OPTION_MEET_TEAM:
     st.write("------")
     st.sidebar.write('Please feel free to connect with us on Linkedin!')
     st.sidebar.success('Hope you had a great time :)')
-    col1,col2,col3 = st.beta_columns([3,3,3])
+    col1,col2,col3 = st.beta_columns([2,2,2])
     with col1:
-	    st.image(os.path.join(DEFAULT_DATA_BASE_DIR,TEAM_DIR,'kv.jpeg'),caption="Karanveer Sidana")
+	    st.image(os.path.join(DEFAULT_DATA_BASE_DIR,TEAM_DIR,'kv.jpeg'),caption="Karanveer Sidana",use_column_width=True)
     with col2:
-        st.image(os.path.join(DEFAULT_DATA_BASE_DIR,TEAM_DIR,'h2.jpeg'),caption="Hiten Goyal")
+        st.image(os.path.join(DEFAULT_DATA_BASE_DIR,TEAM_DIR,'h2.jpeg'),caption="Hiten Goyal",use_column_width=True)
     with col3:
-	    st.image(os.path.join(DEFAULT_DATA_BASE_DIR,TEAM_DIR,'channa.png'),caption="Charanjeet Singh")
+	    st.image(os.path.join(DEFAULT_DATA_BASE_DIR,TEAM_DIR,'channa.png'),caption="Charanjeet Singh",use_column_width=True)
 
     expandar_linkedin = st.beta_expander('Contact Information')
     expandar_linkedin.write('Karan: https://www.linkedin.com/in/karanveersidana/')
     expandar_linkedin.write('Hiten: https://www.linkedin.com/in/hitengoyal/')
-    expandar_linkedin.write('Charanjeet: https://www.linkedin.com/')
     expander_faq = st.beta_expander("More About Our Project")
     expander_faq.write("Hi there! If you have any questions about our project, or simply want to check out the source code, please visit our github repo: https://github.com/techyhoney/Facemask_Detection")
 
