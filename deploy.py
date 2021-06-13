@@ -86,7 +86,7 @@ app_mode = st.sidebar.selectbox(
     "Please select from the following", SIDEBAR_OPTIONS)
 
 if app_mode == SIDEBAR_OPTION_WEBCAM:
-    st.sidebar.markdown('### Click on the below button to access the feature 👇')
+    st.markdown('### Click on the below button to access the feature 👇')
     url = 'https://share.streamlit.io/techyhoney/facemask_detection-webcam/webcam.py'
     if st.button('Detect!'):
         webbrowser.open_new_tab(url)
