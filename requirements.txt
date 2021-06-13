@@ -10,4 +10,3 @@ scikit-learn==0.24.2
 pillow==8.2.0
 streamlit==0.82.0
 streamlit-webrtc==0.20.1
-pycopy-webbrowser

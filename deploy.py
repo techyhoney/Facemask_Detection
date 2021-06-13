@@ -1,7 +1,6 @@
 import cv2
 import imghdr
 import os
-import webbrowser
 import numpy as np 
 import streamlit as st
 from imutils import paths
@@ -88,9 +87,8 @@ app_mode = st.sidebar.selectbox(
 
 if app_mode == SIDEBAR_OPTION_WEBCAM:
     st.markdown('### Click on the below button to access the feature 👇')
-    url = 'https://share.streamlit.io/techyhoney/facemask_detection-webcam/webcam.py'
-    if st.button('Detect!'):
-        webbrowser.open_new_tab(url)
+    link = '[Detect!](https://share.streamlit.io/techyhoney/facemask_detection-webcam/webcam.py)'
+    st.markdown(link, unsafe_allow_html=True)
 
 elif app_mode == SIDEBAR_OPTION_UPLOAD_IMAGE:
     image_file = st.file_uploader("Upload Image", type=['png', 'jpeg', 'jpg', 'webp'])
