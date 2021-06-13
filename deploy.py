@@ -1,6 +1,7 @@
 import cv2
 import imghdr
 import os
+import webbrowser
 import numpy as np 
 import streamlit as st
 from imutils import paths
